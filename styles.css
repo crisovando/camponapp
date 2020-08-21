@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+    background: linear-gradient(#9313b9,#2178c0);
+}
+a{
+    color: white;
+}
+
+.popover {
+    margin-right: 25px;
+    position: relative;
+    display: inline-block;
+    font-size: 0.7em;
+    text-align: justify;
+}
+
+.popover .icon_wrap {
+    width: 24px;
+}
+
+.popover.active .containerList {
+    display: block;
+}
+
+.popover .containerList{
+    position: absolute;
+    top: 35px;
+    right: -15px;
+    user-select: none;
+    background:rgba(75, 145, 166, 0.6);
+    height: auto;
+    display: none;
+    color: white;
+    border-radius: 3px;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.125), -10px -10px 35px rgba(0,0,0,0.125);
+}
+
+.popover .containerList:before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 9px;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+::placeholder{
+    color: white;
+}

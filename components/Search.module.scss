@@ -1,0 +1,27 @@
+.search {
+  height: 150px;
+
+  .h2 {
+    color: white;
+    font-size: 25px;
+    /*Centrado:*/
+    display: flex;
+    justify-content: center;
+  }
+
+  .input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius:40px;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16;
+    height: 50px;
+    padding: 0 20px;
+    width: 70%;
+    outline: none;
+    /*Centrado:*/
+    display: block;
+    margin: 20px auto;
+  }
+}
